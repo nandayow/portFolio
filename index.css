@@ -1,0 +1,492 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  /* background-color: white;
+  overflow: auto;
+  height: 70px !important;
+  box-shadow: 0 3px 10px black; */
+  width: 100%;
+  background-color: white;
+  overflow: auto;
+  box-shadow: 0 3px 10px black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 10px !important;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(201, 172, 46, 0.699);
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  /* background-color: rgb(240, 198, 10); */
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-image {
+  height: 500px !important;
+  /* margin: auto !important; */
+  width: 600px !important;
+}
+.item {
+  align-content: center !important;
+}
+.slider-img {
+  width: 600px !important;
+}
+.slide-text {
+  color: black !important;
+  font-size: 18px !important;
+}
+/* footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  height: 100px !important; */
+
+/* position: absolute;
+    bottom: 0;  
+    right: 0;
+    left: 0; */
+/* width: "100%" !important; */
+/* } */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background: #666;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px "Open Sans", cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: rgb(240, 198, 10);
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: rgb(240, 198, 10);
+  text-decoration: none;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.header {
+  text-align: center !important;
+  margin-top: 50px !important;
+  color: black;
+}
+.description {
+  font-size: 18px !important;
+  color: black;
+  text-align: center !important;
+  margin-top: 20px !important;
+}
+.row {
+  /* background-color: white; */
+  height: 500px !important;
+}
+.row2 {
+  background-color: #3c323200;
+  height: 500px !important;
+  padding-top: 20px;
+}
+.row3 {
+  background-color: #3c323200;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#myCarousel {
+  margin: 10px !important;
+}
+.link {
+  color: black;
+  font-size: 20px;
+}
+.into-image {
+  width: 400px !important;
+  height: 405px !important;
+  margin-left: 140px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  border-radius: 5px !important;
+}
+.personalInfo {
+  text-align: center !important;
+  color: black;
+}
+.SocialMediaIcons {
+  font-size: 40px !important;
+  text-align: center !important;
+  margin-top: 20px !important;
+}
+
+.accordionDiv {
+  margin: 10px !important;
+  /* padding-left: 5% !important; */
+}
+.accordion {
+  background-color: #c8d8e4;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  font-size: 16px !important;
+  text-align: justify !important;
+}
+.mp {
+  margin: 10px !important;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+.typewriter2 h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: 0.15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  /* animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite; */
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hide {
+  display: none;
+}
+.divs_nav {
+  display: none;
+}
+
+.profile-image {
+  --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+  --m: left var(--_i, 0%) top var(--_g), bottom var(--_i, 0%) left var(--_g),
+    top var(--_i, 0%) right var(--_g), right var(--_i, 0%) bottom var(--_g);
+  -webkit-mask: var(--m);
+  mask: var(--m);
+  filter: grayscale();
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+img:hover {
+  --_i: 10%;
+  filter: grayscale(0);
+}
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+.row1 {
+  margin: 10px !important;
+}
